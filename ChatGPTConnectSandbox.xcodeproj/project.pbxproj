@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C0DEC0013057000000000001 /* ChatGPTConnect in Frameworks */ = {isa = PBXBuildFile; productRef = C0DEC0013057000000000003 /* ChatGPTConnect */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A34CDF793056F9530012FA41 /* ChatGPTConnectSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGPTConnectSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0DEC0013057000000000001 /* ChatGPTConnect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = ChatGPTConnectSandbox;
 			packageProductDependencies = (
+				C0DEC0013057000000000003 /* ChatGPTConnect */,
 			);
 			productName = ChatGPTConnectSandbox;
 			productReference = A34CDF793056F9530012FA41 /* ChatGPTConnectSandbox.app */;
@@ -97,6 +103,9 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A34CDF7A3056F9530012FA41 /* Products */;
 			projectDirPath = "";
+			packageReferences = (
+				C0DEC0013057000000000002 /* XCRemoteSwiftPackageReference "ChatGPTConnect" */,
+			);
 			projectRoot = "";
 			targets = (
 				A34CDF783056F9530012FA41 /* ChatGPTConnectSandbox */,
@@ -332,6 +341,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C0DEC0013057000000000002 /* XCRemoteSwiftPackageReference "ChatGPTConnect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kodlabs-in/ChatGPTConnect.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C0DEC0013057000000000003 /* ChatGPTConnect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0DEC0013057000000000002 /* XCRemoteSwiftPackageReference "ChatGPTConnect" */;
+			productName = ChatGPTConnect;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A34CDF713056F9530012FA41 /* Project object */;
 }

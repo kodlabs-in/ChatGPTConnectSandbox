@@ -1,0 +1,15 @@
+{
+  "originHash" : "1bfbd1a8077463ba8ab847a5d24583904fbe7e6360a72577f07ade5b522b54a0",
+  "pins" : [
+    {
+      "identity" : "chatgptconnect",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kodlabs-in/ChatGPTConnect.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9c77b82e931d772f45d3ee544f6ab2788e485c30"
+      }
+    }
+  ],
+  "version" : 3
+}
