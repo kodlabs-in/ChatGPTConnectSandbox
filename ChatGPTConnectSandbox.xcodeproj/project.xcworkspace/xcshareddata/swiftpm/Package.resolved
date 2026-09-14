@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/kodlabs-in/ChatGPTConnect.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "9c77b82e931d772f45d3ee544f6ab2788e485c30"
+        "revision" : "183f7eea0481d303fd712d743e45311f1203e7fa",
+        "version" : "0.1.0-alpha.1"
       }
     }
   ],
